@@ -252,26 +252,42 @@ footer nav a {
 /* ==================== About Section ========================*/
 
 .about-page{
-    border: 2px solid red;
     margin-bottom: 2%;
 }
 
 .about{
-    border: 2px solid green;
+    margin-bottom: 2%;
     border-bottom: 1px dashed black;
+}
+
+.aboutbox{
+    margin-bottom: 2%;
+    padding: 2%;
 }
 
 
 .firstrow{
     display:flex;
+    justify-content:space-evenly;
+     margin: 5% 0;
    
 }
 
 .strategy-left, .work-right{       /* Not sure how i could row wrap all four sections with borders in between so i will section them off two at a time so I can get dashed borders. Will experiment later. */
-    border: 1px solid yellow;
-    width: 50%;
+    width: 48%;
+    border-bottom: 1px dashed grey;
+    padding-bottom: 2%;
 }
 
 .secondrow{
     display: flex;
+    justify-content:space-evenly;
+    margin: 5% 0;
+}
+
+.places-left, .collab-right{
+    width: 48%;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed grey;
+    padding-bottom: 2%;
 }
