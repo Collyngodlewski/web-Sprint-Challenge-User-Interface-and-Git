@@ -80,17 +80,17 @@ header nav{
     display:flex;
     justify-content: center;
     margin-bottom: 1%;
+  
 }
 
 .logo{
    margin-left: 25px;
    display:flex;
    justify-content: center;
-   margin-bottom: 1%;
 }
 
 .links{
-    width: 35%;
+    width: 25%;
    margin-top:1%;
     align-items:center;
     display:flex;
@@ -265,6 +265,19 @@ footer nav a {
     padding: 2%;
 }
 
+/*===================== Section  ================ */
+
+
+.wholesection h3{
+   padding: 1.5% 0;
+}
+
+.wholesection p{
+    padding-bottom: 3.5%;
+}
+
+
+
 
 .firstrow{
     display:flex;
@@ -290,4 +303,18 @@ footer nav a {
     padding-bottom: 2%;
     border-bottom: 1px dashed grey;
     padding-bottom: 2%;
+}
+
+/* ===================== Bottom Section ============ */
+
+.thirdsection{
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+
+button{
+    border-radius: 10px;
+    padding: 2% 6%;
+    background-color: white;
 }
