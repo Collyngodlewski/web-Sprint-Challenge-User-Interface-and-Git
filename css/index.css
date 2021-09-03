@@ -71,10 +71,8 @@ p {
 /* Header */
 
 header{
-    /* border: 1px solid red; */
     margin: 1% 0;
 }
-
 
 header nav{
     width: 100%;
@@ -85,10 +83,10 @@ header nav{
 }
 
 .logo{
-    /* border: 1px solid green; */
    margin-left: 25px;
    display:flex;
    justify-content: center;
+   margin-bottom: 1%;
 }
 
 .links{
@@ -97,9 +95,6 @@ header nav{
     align-items:center;
     display:flex;
     justify-content: space-around;
-    
-    
-    /* border: 1px solid yellow; */
 }
 
 .links a{
@@ -108,13 +103,9 @@ header nav{
 }
 
 .headerimage{
-    /* border: 1px solid pink; */
     display:flex;
     justify-content: center;
 }
-
-
-
 
 
 .container {
@@ -155,13 +146,57 @@ header nav{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Changing individual box colors in the Flexbox */
+
+.box:nth-of-type(1){
+    background: teal;
+}
+
+.box:nth-of-type(2){
+    background: gold;
+}
+
+.box:nth-of-type(3){
+    background:cadetblue;
+}
+
+.box:nth-of-type(4){
+    background: coral;
+}
+
+.box:nth-of-type(5){
+    background: crimson;
+}
+
+.box:nth-of-type(6){
+    background: forestgreen;
+}
+
+.box:nth-of-type(7){
+    background: darkorchid;
+}
+
+.box:nth-of-type(8){
+    background: hotpink;
+}
+
+.box:nth-of-type(9){
+    background: indigo;
+}
+
+.box:nth-of-type(10){
+    background: dodgerblue;
+}
+
+/* Bottom Section */
 
 .bottom-content {
     display: flex;
@@ -176,6 +211,9 @@ header nav{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* Footer */ 
 
 footer {
     width: 100%;
