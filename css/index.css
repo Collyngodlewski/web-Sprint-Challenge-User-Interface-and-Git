@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+  
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,6 +66,48 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+
+/* ============== Header ===================== */
+
+header{
+    margin: 1% 0;
+}
+
+header nav{
+    width: 100%;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 1%;
+  
+}
+
+.logo{
+   margin-left: 25px;
+   display:flex;
+   justify-content: center;
+}
+
+.links{
+    width: 25%;
+   margin-top:1%;
+    align-items:center;
+    display:flex;
+    justify-content: space-around;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerimage{
+    display:flex;
+    justify-content: center;
+}
+
+/*=========================Section=================*/
 
 .container {
     width: 800px;
@@ -104,13 +147,56 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* ===============Changing individual box colors in the Flexbox. not 100% sure if this is the way its supposed to be done, but its the only way i found that would work for me. ============*/
+
+.box:nth-of-type(1){
+    background: teal;
+}
+
+.box:nth-of-type(2){
+    background: gold;
+}
+
+.box:nth-of-type(3){
+    background:cadetblue;
+}
+
+.box:nth-of-type(4){
+    background: coral;
+}
+
+.box:nth-of-type(5){
+    background: crimson;
+}
+
+.box:nth-of-type(6){
+    background: forestgreen;
+}
+
+.box:nth-of-type(7){
+    background: darkorchid;
+}
+
+.box:nth-of-type(8){
+    background: hotpink;
+}
+
+.box:nth-of-type(9){
+    background: indigo;
+}
+
+.box:nth-of-type(10){
+    background: dodgerblue;
+}
+
+/*=========================== Bottom Section ======================*/
 
 .bottom-content {
     display: flex;
@@ -125,6 +211,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* ===========================Footer============================ */ 
 
 footer {
     width: 100%;
@@ -143,4 +232,89 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+
+
+/* ================================= About Page ===========================*/
+
+
+
+.aboutimage{
+    display:flex;
+    justify-content: center;
+
+
+}
+/* ==================== About Section ========================*/
+
+.about-page{
+    margin-bottom: 2%;
+}
+
+.about{
+    margin-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.aboutbox{
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+/*===================== Section  ================ */
+
+
+.wholesection h3{
+   padding: 1.5% 0;
+}
+
+.wholesection p{
+    padding-bottom: 3.5%;
+}
+
+
+
+
+.firstrow{
+    display:flex;
+    justify-content:space-evenly;
+     margin: 5% 0;
+   
+}
+
+.strategy-left, .work-right{       /* Not sure how i could row wrap all four sections with borders in between so i will section them off two at a time so I can get dashed borders. Will experiment later. */
+    width: 48%;
+    border-bottom: 1px dashed grey;
+    padding-bottom: 2%;
+}
+
+.secondrow{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 5% 0;
+}
+
+.places-left, .collab-right{
+    width: 48%;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed grey;
+    padding-bottom: 2%;
+}
+
+/* ===================== Bottom Section ============ */
+
+.thirdsection{
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+
+button{
+    border-radius: 10px;
+    padding: 2% 6%;
+    background-color: white;
 }
